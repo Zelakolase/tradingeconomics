@@ -8,7 +8,7 @@ public class main {
  */
 	public static void main(String[] args) {
 		String APIKey = "5d2avqc3dq4sdmc:x8xt41fp19ifiiq"; // My API Key xD
-		String[] Countries = {"sweden","mexico","thailand"};
+		String[] Countries = {"sweden","mexico","new zealand"};
 		String[] Indicators = {"GDP per capita PPP","Unemployment Rate","Inflation Rate"};
 		Processor P = new Processor(APIKey, Countries, Indicators, 2000, 2021);
 		System.out.println(P.calculate());
